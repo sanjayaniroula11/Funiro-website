@@ -157,11 +157,13 @@ a {
     width: 100%;
     height: 100%;
 }
-.nav-arrows{
+
+.nav-arrows {
     display: flex;
     gap: 10px;
 }
-.arrow{
+
+.arrow {
     background-color: #E89F71;
     width: 30px;
     height: 30px;
@@ -173,25 +175,122 @@ a {
     font-weight: 100;
 }
 
-.features{
+.features {
     margin-top: 100px;
 }
-.feature{
+
+.feature {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.feature h6{
+
+.feature h6 {
     font-size: 1rem;
     font-weight: 400;
 }
-.feature p{
+
+.feature p {
     font-size: 12px;
     font-weight: 300;
     margin-top: 5px;
     color: #3A3A3A;
 }
-.feature-gallery{
+
+.feature-gallery {
     display: flex;
     justify-content: space-between;
+}
+
+.our-products {
+
+    width: 85%;
+    margin: auto;
+}
+
+.section-heading {
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    color: #3A3A3A;
+    margin: 100px;
+}
+
+.products-gallery {
+    margin: 0 0 30px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 40px;
+}
+
+.product {
+    width: 250px;
+    height: 400px;
+    background-color: #F4F5F7;
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product-text {
+    padding: 20px;
+}
+
+.product-text p {
+    margin: 15px 0;
+    font-size: 13px;
+    color: #3A3A3A;
+}
+
+.product-text h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.offer-circle {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #E97171;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 6px;
+
+}
+
+.blue {
+    background-color: #2EC1AC;
+}
+
+s {
+    font-size: 13px;
+    color: #3A3A3A;
+}
+
+.body-price-tag {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.show-more-btn {
+    padding: 15px 60px;
+    background-color: transparent;
+    color: #E89F71;
+    border: 2px solid #E89F71;
+}
+
+.show-more-button {
+    /* width: 100%; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
 }
