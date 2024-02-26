@@ -294,3 +294,81 @@ s {
     display: flex;
     justify-content: center;
 }
+
+.room-container {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+}
+
+.room-text-button {
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.image-room1{
+    width: 30%;  
+    position: relative;
+}
+
+.inner-peace{
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    top: 70%;
+    left: 20%;
+}
+.inner-box{
+    background-color: rgb(233, 230, 230,0.8);
+    backdrop-filter: 5px;
+    /* width: 180px;
+    height: 90px; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 20px;
+    color: #3A3A3A;
+}
+.arrow-box{
+    /* width: 30px;
+    height: 30px; */
+    background-color: #E89F71;
+}
+.image-room2{
+    width: 30%;
+    position: relative;
+}
+.image-room1 img{
+    width: 100%;
+}
+.second-room{
+    height: 80%;
+    width: 100%;
+}
+.second-controller{
+    margin-top: 20px;
+}
+.room-arrow{
+    position: absolute;
+    right: -15px;
+    top: 50%;
+}
+.explore-more{
+    padding: 15px 35px;
+    background-color: #E89F71;
+    color: white;
+}
+.room-text-button p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+.room-text-button h1{
+    font-size: 2rem;
+}
+
